@@ -9,7 +9,7 @@ let package = Package(
         .library(name: "AhoCorasick", targets: ["AhoCorasick"])
     ],
     targets: [
-        .target(name: "AhoCorasick", dependencies: [], path: "AhoCorasick"),
+        .target(name: "AhoCorasick", dependencies: [], path: "Source"),
         .testTarget(name: "AhoCorasickTests", dependencies: ["AhoCorasick"], path: "AhoCorasickTests")
     ]
 )
