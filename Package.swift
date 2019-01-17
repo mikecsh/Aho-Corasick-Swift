@@ -10,7 +10,7 @@ let package = Package(
     ],
     targets: [
         .target(name: "AhoCorasick", dependencies: [], path: "Source"),
-        .testTarget(name: "AhoCorasickTests", dependencies: ["AhoCorasick"], path: "AhoCorasickTests")
+        .testTarget(name: "AhoCorasickTests", dependencies: ["AhoCorasick"], path: "Tests")
     ]
 )
 
